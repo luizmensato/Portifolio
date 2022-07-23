@@ -32,6 +32,8 @@ a{text-align: center; text-decoration: none;}
   .address{order: 4; padding: 10px 0% 10px 0%; line-height: 35px; text-align: center; background-color:rgb(229, 226, 226)}
   .address img{width: 100px; height: 100px; vertical-align: middle;}
   .address strong{color: rgb(9, 150, 9);}
+
+  .image-gallery{float: left; width: 90%; margin: 30px 5%;}
 }
 
 /* Medium Smartphones */
@@ -50,6 +52,8 @@ a{text-align: center; text-decoration: none;}
   .address{order: 4; padding: 10px 0% 10px 0%; line-height: 35px; text-align: center; background-color:rgb(229, 226, 226)}
   .address img{width: 150px; height: 150px; vertical-align: middle;}
   .address strong{color: rgb(9, 150, 9);}
+
+  .image-gallery{float: left; width: 90%; margin: 30px 5%;}
 }
 
 /* Large Smartphones and Small Notbooks */
@@ -65,10 +69,13 @@ a{text-align: center; text-decoration: none;}
   .address{width: 60%; height: 195px; float: left; padding: 30px 0% 10px 0%; line-height: 35px; text-align: center;}
   .address img{width: 100px; height: 100px; vertical-align: middle;}
   .address strong{color: rgb(9, 150, 9);}
+
+  .image-gallery{float: left; width: 45%; margin: 30px 7%;}
 }
 
 /* XLarge Screens */
 @media screen and (min-width: 1200px) {
+  .header{float: left; width: 100%; box-shadow: 0 4px 10px #999999;}
 
   .nav{flex-flow: row wrap;}
   .nav a{width: 25%;}
@@ -76,10 +83,13 @@ a{text-align: center; text-decoration: none;}
   .buttonMob{display: none;}
 
   .logo{float: left; padding: 15px 0 15px 10%; width: 30%;}
-  .logo img{width: 200px; height: 200px;}
+  .logo img{width: 150px; height: 150px;}
 
-  .address{width: 60%; height: 195px; float: left; padding: 30px 0% 10px 0%; line-height: 35px; text-align: center;}
-  .address img{width: 100px; height: 100px; vertical-align: middle;}
-  .address strong{color: rgb(9, 150, 9);}
+  .address{width: 60%; height: 155px; float: left; padding: 20px 0% 10px 0%; line-height: 15px; text-align: center;}
+  .address img{width: 80px; height: 80px; vertical-align: middle;}
+  .address strong{color: rgb(9, 150, 9); letter-spacing: 1px;}
+  .address em{color: #7c7c7c; font-weight: 600; letter-spacing: 1px;}
+
+  .image-gallery{float: left; width: 45%; margin: 30px 7%;}
   
 }

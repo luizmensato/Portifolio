@@ -1,8 +1,8 @@
 import React from 'react';
-import Slide from './Header/Nav'
-import Information from './Header/ButtonMob'
-import Contact from './Header/Logo'
-import Maps from './Header/Address'
+import Slide from './Main/Slide'
+import Information from './Main/Information'
+import Contact from './Main/Contact'
+import Maps from './Main/Maps'
 
 export default class Main extends React.Component {
   render() {
