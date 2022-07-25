@@ -29,11 +29,20 @@ a{text-align: center; text-decoration: none;}
   .logo{order: 3; text-align: center; background-color: #fff;}
   .logo img{width: 70%; height: 200px;}
 
-  .address{order: 4; padding: 10px 0% 10px 0%; line-height: 35px; text-align: center; background-color:rgb(229, 226, 226)}
+  .address{order: 4; padding: 10px 0% 10px 0%; line-height: 35px; text-align: center; 
+    background-color:rgb(229, 226, 226)}
   .address img{width: 100px; height: 100px; vertical-align: middle;}
   .address strong{color: rgb(9, 150, 9);}
 
   .image-gallery{float: left; width: 90%; margin: 30px 5%;}
+
+  .information{float: left; width: 90%; padding: 20px 0;}
+  .information li{list-style: none; line-height: 35px; padding:5px 20px; 
+    -webkit-align-self: flex-start; -ms-flex-item-align: start; align-self: flex-start; 
+    color: #525252; text-align: center;}
+
+    .maps{width: 90%; margin: 45px 20px;}
+    .maps iframe{width: 100%; height: 400px; border: none;}
 }
 
 /* Medium Smartphones */
@@ -49,11 +58,20 @@ a{text-align: center; text-decoration: none;}
   .logo{order: 3; text-align: center; background-color: #fff;}
   .logo img{width: 70%; height: 300px;}
 
-  .address{order: 4; padding: 10px 0% 10px 0%; line-height: 35px; text-align: center; background-color:rgb(229, 226, 226)}
+  .address{order: 4; padding: 10px 0% 10px 0%; line-height: 35px; text-align: center; 
+    background-color:rgb(229, 226, 226)}
   .address img{width: 150px; height: 150px; vertical-align: middle;}
   .address strong{color: rgb(9, 150, 9);}
 
   .image-gallery{float: left; width: 90%; margin: 30px 5%;}
+
+  .information{float: left; width: 90%; padding: 30px 0;}
+  .information li{list-style: none; line-height: 35px; padding:5px 20px; 
+    -webkit-align-self: flex-start; -ms-flex-item-align: start; align-self: flex-start; 
+    color: #525252; text-align: center;}
+
+    .maps{width: 90%; margin: 45px 30px;}
+    .maps iframe{width: 100%; height: 400px; border: none;}
 }
 
 /* Large Smartphones and Small Notbooks */
@@ -66,11 +84,20 @@ a{text-align: center; text-decoration: none;}
   .logo{float: left; padding: 15px 0 15px 10%; width: 30%;}
   .logo img{width: 200px; height: 200px;}
 
-  .address{width: 60%; height: 195px; float: left; padding: 30px 0% 10px 0%; line-height: 35px; text-align: center;}
+  .address{width: 60%; height: 195px; float: left; padding: 30px 0% 10px 0%; line-height: 35px; 
+    text-align: center;}
   .address img{width: 100px; height: 100px; vertical-align: middle;}
   .address strong{color: rgb(9, 150, 9);}
 
   .image-gallery{float: left; width: 45%; margin: 30px 7%;}
+
+  .information{float: left; width: 40%; padding: 60px 0;}
+  .information li{list-style: none; line-height: 35px; padding:5px 20px; 
+    -webkit-align-self: flex-start; -ms-flex-item-align: start; align-self: flex-start; 
+    color: #525252;}
+
+    .maps{width: 90%; margin: 45px 40px;}
+    .maps iframe{width: 100%; height: 400px; border: none;}
 }
 
 /* XLarge Screens */
@@ -85,11 +112,19 @@ a{text-align: center; text-decoration: none;}
   .logo{float: left; padding: 15px 0 15px 10%; width: 30%;}
   .logo img{width: 150px; height: 150px;}
 
-  .address{width: 60%; height: 155px; float: left; padding: 20px 0% 10px 0%; line-height: 15px; text-align: center;}
+  .address{width: 60%; height: 155px; float: left; padding: 20px 0% 10px 0%; line-height: 15px; 
+    text-align: center;}
   .address img{width: 80px; height: 80px; vertical-align: middle;}
   .address strong{color: rgb(9, 150, 9); letter-spacing: 1px;}
   .address em{color: #7c7c7c; font-weight: 600; letter-spacing: 1px;}
 
   .image-gallery{float: left; width: 45%; margin: 30px 7%;}
-  
+
+  .information{float: left; width: 40%; padding: 60px 0;}
+  .information li{list-style: none; line-height: 35px; padding:5px 20px; 
+    -webkit-align-self: flex-start; -ms-flex-item-align: start; align-self: flex-start; 
+    color: #525252;}
+
+    .maps{width: 90%; margin: 45px 70px;}
+    .maps iframe{width: 100%; height: 400px; border: none;}
 }
