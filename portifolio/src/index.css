@@ -94,8 +94,12 @@ a {
   margin: 20px 0;
 }
 
-.vantagens-info{
+.vantagens a{
   width: 28%;
+}
+
+.vantagens-info{
+  width: 100%;
   margin: 15px 0;
   box-shadow: 0 5px 20px #999;
   background-color: rgb(247, 245, 245);
@@ -104,6 +108,7 @@ a {
 .vantagens-info:hover{
   box-shadow: 0 8px 25px rgb(122, 122, 122);
   cursor:pointer;
+  border: 1px solid #333;
 }
 
 .vantagens-info img{
